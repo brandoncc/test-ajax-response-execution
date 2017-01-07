@@ -1,0 +1,10 @@
+<button>Click me</button>
+
+<script>
+  $('button').click(function() {
+    $.ajax({
+      method: 'post',
+      url: '/test'
+    });
+  });
+</script>
